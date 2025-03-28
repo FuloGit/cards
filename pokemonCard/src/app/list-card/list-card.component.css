@@ -1,0 +1,56 @@
+/* Overall page styling */
+body {
+    font-family: Arial, sans-serif; /* Make text more readable */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text for contrast */
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  /* Styling for the affichage container */
+  .affichage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between each card */
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  /* Styling for each card */
+  .carte {
+    background-color: #fff; /* White background for each card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    width: 200px; /* Set width of each card */
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  .carte:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  .carte p {
+    margin: 10px 0;
+    font-size: 14px; /* Smaller font size for card details */
+  }
+  
+  .carte img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Rounded corners for images */
+  }
+  
+  /* Optional: Add some padding to the parent paragraph */
+  p {
+    margin: 0 20px;
+  }

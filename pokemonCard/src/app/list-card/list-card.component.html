@@ -1,0 +1,11 @@
+<p>list-card works!</p>
+<p>{{set.name}}</p>
+
+<div class="affichage">
+@for(card of visibleList; track $index){
+    <div class="carte">
+    <p>{{card.name}}</p>
+    <p>{{card.localId}}</p>
+    <img src="https://assets.tcgdex.net/fr/swsh/swsh3/{{card.localId}}/high.png">
+    </div>
+}</div>
